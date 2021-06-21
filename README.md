@@ -49,7 +49,7 @@ dados_tratados['UnixTime'] = list(map(lambda i: (pd.to_datetime([dados_tratados[
 ### Visualização dos dados
 
 ```python
-  df_java = dados_tratados[dados_tratados['Language'] == 'Java']
+df_java = dados_tratados[dados_tratados['Language'] == 'Java']
 sns.regplot(x="UnixTime", y="Value", data= df_java)
 plt.gcf().set_size_inches(16, 6)
 plt.ylabel('% de uso da linguagem Java')
