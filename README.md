@@ -86,6 +86,10 @@ plt.show()
 
 ![Matplotlib ScikitLearn](https://github.com/vhnegrisoli/machine-learning-linguagens-programacao/blob/master/imgs/Figure_2.png)
 
+### Plots de evolução das linguagens Java, Javascript, Python, C#, PHP, Delphi, Dart e Cobol nos últimos 17 anos
+
+![17 anos](https://github.com/vhnegrisoli/machine-learning-linguagens-programacao/blob/master/imgs/Compara%C3%A7%C3%A3o%20linguagens%2017%20anos.png)
+
 ### Autor
 
 * Victor Hugo Negrisoli
