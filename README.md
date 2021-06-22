@@ -88,6 +88,28 @@ plt.show()
 
 ### Plots de evolução das linguagens Java, Javascript, Python, C#, PHP, Delphi, Dart e Cobol nos últimos 17 anos
 
+```python
+dados = df
+
+dados['Date'] = pd.to_datetime(dados['Date'])
+dados.set_index('Date', inplace = True) 
+
+fig, axes = plt.subplots(nrows=4, ncols=2)
+
+dados['Java'].plot(ax=axes[0,0], title = "Análise da linguagem Java nos últimos 17 anos")
+dados['JavaScript'].plot(ax=axes[1,0], title = "Análise da linguagem JavaScript nos últimos 17 anos")
+dados['Python'].plot(ax=axes[0,1], title = "Análise da linguagem Python nos últimos 17 anos")
+dados['C#'].plot(ax=axes[1,1], title = "Análise da linguagem C# nos últimos 17 anos")
+dados['PHP'].plot(ax=axes[2,0], title = "Análise da linguagem PHP nos últimos 17 anos")
+dados['Delphi'].plot(ax=axes[2,1], title = "Análise da linguagem Delphi nos últimos 17 anos")
+dados['Dart'].plot(ax=axes[3,0], title = "Análise da linguagem Dart nos últimos 17 anos")
+dados['Cobol'].plot(ax=axes[3,1], title = "Análise da linguagem Cobol nos últimos 17 anos")
+
+plt.gcf().set_size_inches(16, 22)
+
+plt.show()
+```
+
 ![17 anos](https://github.com/vhnegrisoli/machine-learning-linguagens-programacao/blob/master/imgs/Compara%C3%A7%C3%A3o%20linguagens%2017%20anos.png)
 
 ### Autor
