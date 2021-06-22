@@ -49,7 +49,7 @@ dados_tratados['UnixTime'] = list(map(lambda i: (pd.to_datetime([dados_tratados[
 ### Visualização dos dados
 
 ```python
-  df_java = dados_tratados[dados_tratados['Language'] == 'Java']
+df_java = dados_tratados[dados_tratados['Language'] == 'Java']
 sns.regplot(x="UnixTime", y="Value", data= df_java)
 plt.gcf().set_size_inches(16, 6)
 plt.ylabel('% de uso da linguagem Java')
@@ -75,3 +75,18 @@ plt.xlabel('Anos em Unix Time de 2004 a 2021')
 
 plt.show()
 ```
+
+### Plots gerados
+
+* Regressão Linear com Seaborn (SNS):
+
+![Seaborn](https://github.com/vhnegrisoli/machine-learning-linguagens-programacao/blob/master/imgs/Figure_1.png)
+
+* Regressão Linear com Scikit-Learn (LinearRegression) e Matplotlib:
+
+![Matplotlib ScikitLearn](https://github.com/vhnegrisoli/machine-learning-linguagens-programacao/blob/master/imgs/Figure_2.png)
+
+### Autor
+
+* Victor Hugo Negrisoli
+* Desenvolvedor Back-End Sênior | Analista de Dados
