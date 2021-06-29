@@ -11,6 +11,8 @@ Projeto de Data Science e Machine Learning de análise de linguagens de programa
 * Matplotlib
 * Seaborn
 * Scikit-Learn
+* Requests
+* REST API Call (Github API)
 
 ### Algoritmos
 
